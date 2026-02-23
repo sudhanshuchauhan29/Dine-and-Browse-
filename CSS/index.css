@@ -311,3 +311,36 @@ background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, r
   height: 7px;
 }
 /* footer  */
+footer {
+  color: white;
+  max-width: 80vw;
+  margin: auto;
+  padding: 23px;
+}
+.ques {
+  color: black;
+  padding: 10px 10px 40px 10px;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgb(40, 154, 67);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer a {
+  text-decoration: underline;
+  color: rgb(118, 121, 51);
+  font-size: 14px;
+}
+
+a:active {
+  color: rgb(0, 64, 255);
+}
