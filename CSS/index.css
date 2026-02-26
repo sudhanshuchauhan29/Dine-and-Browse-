@@ -7,8 +7,7 @@
   position: relative;
 }
 body{
-  background: rgb(73,72,78);
-background: linear-gradient(90deg, rgb(116, 112, 137) 0%, rgb(75, 75, 163) 9%, rgb(62, 62, 66) 48%, rgb(83, 81, 101) 56%);
+  background-color: antiquewhite;
 }
 
 .ball img{
@@ -20,8 +19,8 @@ background: linear-gradient(90deg, rgb(116, 112, 137) 0%, rgb(75, 75, 163) 9%, r
    position: absolute;
    bottom: 0px;
    left: 0;
-   animation: ball 8s linear infinite ,
-       ball2 2s ease-out infinite alternate;
+   animation: ball 5s linear infinite ,
+       ball2 1s ease-out infinite alternate;
 }
 
 
@@ -47,24 +46,24 @@ background: linear-gradient(90deg, rgb(116, 112, 137) 0%, rgb(75, 75, 163) 9%, r
 }
 .main {
   height: 85vh;
-  width: 100vw;
+  width: 100%;
 }
-.contain .b {
+.contain .b{
   position: absolute;
   top: 0;
   background-color: black;
   height: 85vh;
-  width: 100vw;
+  width: 100%;
 }
 .main .box {
   height: 85vh;
-  width: 100vw;
+  width: 100%;
   opacity: 0.6;
   position: absolute;
   top: 0;
 }
 .box img {
-  width: 100vw;
+  width: 100%;
   height: 85vh;
 }
 
@@ -85,7 +84,7 @@ nav {
   position: fixed;
   align-items: center;
   justify-content: space-between;
-  gap: 500px;
+  /* gap: 500px; */
   z-index: 12;
   top: 0;
   height: 62px;
@@ -96,13 +95,14 @@ h2 {
   text-decoration: none;
   z-index: 10;
   color: white;
+  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #lang a {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  position: relative;
+  
   text-decoration: none;
   z-index: 10;
   color: white;
@@ -115,19 +115,19 @@ h2 {
   align-items: center;
   justify-content: start;
   background-color: rgb(133, 87, 78);
-  width: 100vw;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .nav a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 500;
   position: relative;
   text-decoration: none;
   z-index: 10;
   color: rgb(8, 5, 5);
   padding: 4px 8px;
-  font-weight: 500;
   margin: 0 8px;
   background-color: rgba(0, 118, 34, 0.26);
   padding: 10px;
@@ -140,7 +140,7 @@ h2 {
 }
 hr {
   height: 7px;
-  width: 100vw;
+  width: 100%;
   background-color: white;
 }
 
@@ -157,7 +157,7 @@ hr {
   gap: 23px;
   padding: 0 30px;
 }
-.hero span {
+.hero pre {
   font-size: 2rem;
   color: rgb(240, 232, 232);
   font-family: "Poppins", sans-serif;
@@ -174,71 +174,14 @@ hr {
 #text:hover {
   background-color: rgba(190, 179, 179, 0.61);
 }
-.contain {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contain .boxe {
-  height: 55vh;
-  width: 20vw;
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 40px;
-  border: 3px solid rgb(26, 16, 16);
 
-  background-color: rgb(238, 237, 237);
-  flex-direction: column;
-  margin: 60px 3vw;
-}
-.boxe {
-  overflow: hidden;
-  position: relative;
-}
-.boxe .b {
-  position: absolute;
-  top: 0;
-  background-color: black;
-  height: 55vh;
-  width: 20vw;
-}
-.boxe .sboxe {
-  position: absolute;
-  opacity: 0.6;
-  top: 0;
-}
-.sboxe img {
-  height: 70vh;
-  width: 25vw;
-}
 
-.boxe h4 {
-  position: relative;
-  z-index: 10;
-  margin: 360px 0 0 50px;
-  font-size: 1.5em;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
 
-  color: rgb(255, 255, 255);
-}
-.boxe h5 {
-  position: relative;
-  z-index: 10;
-  font-weight: 200;
-  margin: 10px 20px 10px 10px;
-  color: rgb(235, 235, 235);
-}
-.boxe:hover {
-  border-radius: 40px;
-  transform: scale(1.1, 1.1);
-  transition-duration: 0.5s;
-  border: 4px solid black;
-  border-radius: 40px;
-}
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 h1 {
   margin: 60px 25px;
@@ -252,7 +195,7 @@ background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, r
 }
 .container .boxes {
   height: 60vh;
-  width: 20vw;
+  width: 300px;
   border: 2px solid rgb(255, 255, 255);
   border-radius: 40px;
   border: 3px solid rgb(26, 16, 16);
@@ -269,7 +212,7 @@ background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, r
   top: 0;
   background-color: black;
   height: 60vh;
-  width: 20vw;
+  width: 300px;
 }
 .boxes .sbox {
   position: absolute;
@@ -278,7 +221,7 @@ background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, r
 }
 .sbox img {
   height: 60vh;
-  width: 20vw;
+  width: 300px;
 }
 .boxes:hover {
   border-radius: 40px;
@@ -288,21 +231,24 @@ background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, r
   border-radius: 40px;
 }
 .boxes h4 {
-  position: relative;
+  position: absolute;
   z-index: 10;
-  margin: 360px 0 0 20px;
+  margin: 10px 0 0 20px;
   font-size: 1.5em;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   text-decoration: underline;
   color: rgb(254, 254, 254);
+  bottom: 120px;
+
 }
 .boxes h3 {
-  position: relative;
+  position: absolute;
   z-index: 10;
   font-weight: 200;
   margin: 10px 20px 0 10px;
   color: rgb(236, 236, 237);
+  bottom: 60px;
   text-decoration: underline;
 }
 .hr hr {
@@ -312,7 +258,7 @@ background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, r
 }
 /* footer  */
 footer {
-  color: white;
+  color: rgb(217, 192, 192);
   max-width: 80vw;
   margin: auto;
   padding: 23px;
@@ -337,10 +283,142 @@ footer {
 
 .footer a {
   text-decoration: underline;
-  color: rgb(118, 121, 51);
+  color: rgb(91, 128, 206);
   font-size: 14px;
 }
 
 a:active {
   color: rgb(0, 64, 255);
+}
+
+@media (max-width: 768px){
+  nav{
+  height: 51px;
+  justify-content: center;
+  }
+  nav h2{
+    font-size: 20px;
+  }
+  #lang a{
+    font-size: 12px;
+
+  }
+  .box img, .main .box , .contain .b,.main {
+  width: 100%;
+  height: 60vh;
+}
+@keyframes ball2 {
+   from {
+       bottom: 38%;
+   }
+
+   to {
+       bottom: 38%;
+   }
+}
+.hero pre{
+  font-size: 1.0rem;
+  flex-direction: column;
+  padding-top: 200px;
+  
+}
+.nav a{
+  font-size: 1rem;
+}
+h1{
+  font-size: 1.5rem;
+
+}
+
+.boxes h4,.boxe h4{
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+.boxes h3,.boxe h3{
+  font-size: .8rem;
+  font-weight: 200;
+}
+.ball img{
+    width: 100px;
+    height: 100px;
+  }
+
+}
+@media (max-width: 440px){
+  nav{
+  height: 30px;
+  justify-content: center;
+  }
+  .ball img{
+    width: 100px;
+    height: 100px;
+  }
+  nav h2{
+    font-size: 10px;
+    
+  }
+  #lang a{
+    display: none;
+  }
+  .box img, .main .box , .contain .b,.main {
+  width: 100%;
+  height: 40vh;
+}
+@keyframes ball2 {
+   from {
+       bottom: 58%;
+   }
+
+   to {
+       bottom: 58%;
+   }
+}
+.hero pre{
+  font-size: .8rem;
+  flex-direction: column;
+  padding-top: 200px;
+  
+}
+.nav a{
+  font-size: 1rem;
+}
+h1{
+  font-size: 1rem;
+
+}
+.nav a{
+  width: 100%;
+  margin: 10px;
+  
+}
+.boxes h4{
+  font-size: 1rem;
+  font-weight: 300;
+}
+.boxes h3{
+  font-size: .8rem;
+  font-weight: 200;
+}
+.footer a{
+  font-size: 7px;
+}
+
+  .container {
+    flex-direction: column;
+  }
+   
+  .sbox img, .boxes .b,.container .boxes{
+    width: 250px;
+    height: 30vh;
+  }
+.container .boxes{
+  margin: 20px;
+}
+.boxes h3{
+  bottom: 30px;
+}
+.boxes h4{
+  bottom: 60px;
+}
 }

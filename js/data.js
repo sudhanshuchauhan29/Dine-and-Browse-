@@ -15,7 +15,7 @@ const restaurants = [
     name: "Shukla Restaurant",
     address: "Near Tirwa, Kannauj",
     image: "assests/shukla.webp",
-    link: "1shukla.html"
+    link: "Html/1shukla.html"
   }
 ];
 
@@ -42,7 +42,7 @@ const bookstores = [
 const restaurantvariety = 
 [
   {
-  name: "Visit With Friend",
+  name: "Visit",
   address:"Explicitly created to commemorate a person or event,serves as a memorial",
   image:"assests/1.jpeg",
   link:"variety.html"
@@ -69,13 +69,13 @@ const bookvariety =
   link:"variety.html"
 },
   {
-  name: "Gaining Knowledge",
+  name: "Gaining",
   address:"Explicitly created to commemorate a person or event,serves as a memorial",
   image:"assests/b.jpeg",
   link:"variety.html"
 },
   {
-  name: "Develop Yourself",
+  name: "Developing",
   address:"Explicitly created to commemorate a person or event,serves as a memorial",
   image:"assests/c.jpeg",
   link:"variety.html"
