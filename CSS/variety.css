@@ -1,0 +1,262 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  .bigcontainer{
+    position: relative;
+  }
+  body{
+     background-color: antiquewhite;
+  }
+  
+  .main {
+    height: 85vh;
+    width: 100%;
+
+  }
+  .contain .b{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    height: 85vh;
+    width: 100%;
+  }
+  .main .box {
+    height: 85vh;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+  }
+  .box img {
+  width: 100%;
+  height: 85vh;
+}
+  nav {
+    background: rgb(73, 72, 78);
+    background: linear-gradient(
+      90deg,
+      rgb(220, 227, 179) 0%,
+      rgb(145, 140, 44) 9%,
+      rgba(79, 179, 104, 0.532) 48%,
+      rgba(102, 69, 172, 0.26) 99%
+    );
+      border-radius: 20px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      width: 100%;
+      margin: 0px 0;
+      display: flex;
+     position: fixed;
+     align-items: center;
+     justify-content: space-between;
+      z-index: 12;
+      top: 0;
+      height: 62px;
+  }
+  h2 {
+    position: relative;
+    text-decoration: none;
+    z-index: 10;
+    margin: 0 80 px;
+  }
+   #lang a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+    z-index: 10;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.1);
+    padding: 4px 8px;
+    margin: 0 8px;
+  }
+   .nav{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+   background-color: rgb(133, 87, 78);
+   width: 100%; 
+   flex-wrap: wrap;
+  }
+  .nav a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    position: relative;
+    text-decoration: none;
+    z-index: 10;
+    color: rgb(8, 5, 5);
+    padding: 4px 8px;
+    font-weight: 500;
+    background-color: rgba(0, 118, 34, 0.26);
+    padding:10px;
+    margin: 20px 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+  .nav a:hover{
+    color: rgb(145, 133, 133);
+  }
+  hr{
+    height: 7px;
+    width: 100%;
+    background-color: white;
+  }
+  .hero {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100% - 250px);
+    gap: 23px;
+    padding: 0 30px;
+  }
+  .hero pre {
+    font-size: 2.5rem;
+    color: rgb(207 181 23);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h1 {
+  margin: 60px 25px;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color:color-mix(in srgb, rgb(171, 16, 16) 50%, rgb(27, 91, 27) 50%);
+    padding: 10px;
+    background: rgb(73,72,78);
+background: linear-gradient(90deg, rgb(166, 172, 157) 0%, rgb(225, 170, 4) 9%, rgb(145, 109, 119) 48%, rgb(103, 86, 157) 99%);
+
+}
+.container .boxes {
+  height: 30vh;
+  width: 300px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  border: 3px solid rgb(26, 16, 16);
+  background-color: rgb(238, 237, 237);
+  flex-direction: column;
+  margin: 60px 5vw;
+}
+.boxes {
+  overflow: hidden;
+  position: relative;
+}
+.boxes .b {
+  position: absolute;
+  top: 0;
+  background-color: black;
+  height: 30vh;
+  width: 300px;
+}
+.boxes .sbox {
+  position: absolute;
+  opacity: 0.6;
+  top: 0;
+}
+.sbox img {
+  height: 30vh;
+  width: 300px;
+}
+.boxes:hover {
+  border-radius: 40px;
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.5s;
+  border: 4px solid black;
+  border-radius: 40px;
+}
+.boxes h4 {
+  position: absolute;
+  z-index: 10;
+  margin: 10px 0 0 20px;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  color: rgb(254, 254, 254);
+  bottom: 120px;
+
+}
+.boxes h3 {
+  position: absolute;
+  z-index: 10;
+  font-weight: 200;
+  margin: 10px 20px 0 10px;
+  color: rgb(236, 236, 237);
+  bottom: 60px;
+  text-decoration: underline;
+}
+.hr hr {
+  background-color: rgb(36, 20, 20);
+  width: 100%;
+  height: 7px;
+}
+.boxes h1{
+    position: absolute;
+    z-index: 10;
+    text-decoration: none;
+    font-weight: 200;
+    bottom: 0;
+    padding: 10px;
+    
+    color: rgb(5, 7, 144);
+    background: rgb(73,72,78);
+    background: linear-gradient(90deg, rgb(139, 134, 163) 0%, rgb(83, 70, 101) 9%, rgb(74, 74, 85) 48%, rgb(109, 97, 120) 99%);
+}
+
+
+h3 a{
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 1.5em;
+    background-color:azure;
+    padding: 5px 88px;
+    text-align: center;
+    border: 2px groove gray;
+    border-radius: 45px;
+}
+
+footer {
+  color: rgb(217, 192, 192);
+  max-width: 80vw;
+  margin: auto;
+  padding: 23px;
+}
+.ques {
+  color: black;
+  padding: 10px 10px 40px 10px;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgb(40, 154, 67);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer a {
+  text-decoration: underline;
+  color: rgb(91, 128, 206);
+  font-size: 14px;
+}
+
+a:active {
+  color: rgb(0, 64, 255);
+}
