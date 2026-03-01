@@ -2,32 +2,62 @@ const restaurants = [
   {
     name: "Hot Bite",
     image: "assests/hotbite.jpeg",
-    link: "html/hotbite.html"
+    link: "HTML/hotbite.html"
   },
   {
     name: "Mughal Zaika",
     image: "assests/Mughal.jpg",
-    link: "2mughal.html"
+    link: "HTML/mughal.html"
   },
   {
     name: "Shukla Restaurant",
     image: "assests/shukla.webp",
-    link: "Html/shukla.html"
+    link: "HTML/shukla.html"
   },
   {
     name: "Rajkumar dhaba",
     image: "assests/hotbite.jpeg",
-    link: "html/Rajkumar_dhaba.html"
+    link: "hTML/Rajkumar_dhaba.html"
   },
   {
-    name: "Mughal Zaika",
+    name: "Badshah Restaurants",
     image: "assests/Mughal.jpg",
-    link: "2mughal.html"
+    link: "HTML/Badshah.html"
   },
   {
-    name: "Shukla Restaurant",
+    name: "Diamonds Pizza",
     image: "assests/shukla.webp",
-    link: "Html/shukla.html"
+    link: "HTML/Diamond_pizza.html"
+  },
+  {
+    name: "South Indian",
+    image: "assests/hotbite.jpeg",
+    link: "HTML/South_Indian.html"
+  },
+  {
+    name: "Chaaycus",
+    image: "assests/Mughal.jpg",
+    link: "HTML/Chaaycus.html"
+  },
+  {
+    name: "Diamond's Pizza 2",
+    image: "assests/shukla.webp",
+    link: "HTML/Diamond2.html"
+  },
+  {
+    name: "Gigabite Restaurants",
+    image: "assests/hotbite.jpeg",
+    link: "hTML/Gigabite.html"
+  },
+  {
+    name: "The Royak Cafe",
+    image: "assests/Mughal.jpg",
+    link: "HTML/Royal_Cafe.html"
+  },
+  {
+    name: "Bansiwale's Restaurants",
+    image: "assests/shukla.webp",
+    link: "HTML/BansiWale.html"
   }
 ];
 
