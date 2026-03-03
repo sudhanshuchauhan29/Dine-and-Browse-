@@ -76,5 +76,36 @@ const bookstores = [
     name: "Mishra BookStore",
     image: "assests/mishra pustak.jpg",
     link: "HTML/Mishra.html"
+  },
+  {
+    name: "Shiv Pustak Bhandar",
+    image: "assests/Shiv.png",
+    link: "HTML/Shiv.html"
+  },
+  {
+    name: "Prashad Bharti",
+    image: "assests/prashad.png",
+    link: "HTML/Prashad_Bharti.html"
+  },
+  {
+    name: "Patel  Pustal Bhandar",
+    image: "assests/patel.png",
+    link: "HTML/Patel.html"
+  },
+
+  {
+    name: "Nikki Pustak Bhandar",
+    image: "assests/nikki.png",
+    link: "HTML/Nikki.html"
+  },
+   {
+    name: "Madhvi Pustak Bhandar",
+    image: "assests/madhvi.png",
+    link: "HTML/Madhvi.html"
+  },
+   {
+    name: "Ma Vaishno Pustak Bhandar",
+    image: "assests/vaishno.png",
+    link: "HTML/Ma_Vaishno.html"
   }
 ];
