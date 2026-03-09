@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+.container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 5px solid rgb(57, 84, 97);
+  border-radius: 34px;
+}
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+}
+h1 {
+
+    font-size: clamp(24px, 5vw, 50px);
+  display: flex;
+  /* font-size: 50px; */
+  color: black;
+  background: rgb(73, 72, 78);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 72, 78, 1) 0%,
+    rgb(154, 149, 167) 9%,
+    rgb(91, 170, 140) 48%,
+    rgba(131, 20, 20, 1) 99%
+  );
+  border-radius: 23px;
+  border: 2px solid orange;
+  box-shadow: 4px 4px 8px rgb(12, 49, 149);
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  margin: 100px;
+  padding: 10px;
+  background-color: rgba(30, 0, 255, 0.167);
+  box-shadow: 0px 8px 16px rgb(52, 73, 180);
+}
+.a a {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.an {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 12px;
+}
+.an a {
+  font-size: 24px;
+  text-decoration: none;
+  margin: 20px;
+}
+.an span {
+  font-size: 24px;
+}
+.dist {
+  background-color: bisque;
+}
+.restaurant-card {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.details h3 {
+  margin: 20px 0 10px;
+}
+.overview,
+.details {
+  padding: 20px;
+  background: #fff;
+}
+footer {
+  color: white;
+  max-width: 80vw;
+  margin: auto;
+  padding: 23px;
+}
+.ques {
+  color: black;
+  padding: 10px 10px 40px 10px;
+}
+
+.footer {
+  font-family: "Poppins", sans-serif;
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  color: rgb(243, 0, 0);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer a {
+  text-decoration: underline;
+  color: rgb(121, 51, 51);
+  font-size: 14px;
+}
+
+a:active {
+  color: rgb(0, 64, 255);
+}
+body {
+  background-color: antiquewhite;
+}
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column;
+}
+
+h2{
+    margin: 20px;
+}
+
+.a a{
+    font-size: 20px;
+}
+
+.restaurant-card{
+    margin: 10px;
+}
+
+}
+
+@media (max-width: 480px){
+
+.footer{
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer a{
+    font-size: 12px;
+}
+
+p{
+    padding: 0 10px;
+}
+}
+@media (max-width: 440px) {
+  .footer a {
+    font-size: 7px;
+  }
+}
