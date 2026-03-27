@@ -17,27 +17,27 @@ const restaurants = [
   {
     name: "Rajkumar dhaba",
     image: "assests/hotbite.jpeg",
-    link: "hTML/Rajkumar_dhaba.html"
+    link: "hTML/Rajkumar.html"
   },
   {
     name: "Badshah Restaurants",
     image: "assests/Mughal.jpg",
-    link: "HTML/Badshah.html"
+    link: "HTML/badshah.html"
   },
   {
     name: "Diamonds Pizza",
     image: "assests/shukla.webp",
-    link: "HTML/Diamond_pizza.html"
+    link: "HTML/diamond1.html"
   },
   {
     name: "South Indian",
     image: "assests/hotbite.jpeg",
-    link: "HTML/South_Indian.html"
+    link: "HTML/south.html"
   },
   {
     name: "Chaaycus",
     image: "assests/Mughal.jpg",
-    link: "HTML/Chaaycus.html"
+    link: "HTML/chaaycus.html"
   },
   {
     name: "Diamond's Pizza 2",
@@ -52,12 +52,12 @@ const restaurants = [
   {
     name: "The Royak Cafe",
     image: "assests/Mughal.jpg",
-    link: "HTML/Royal_Cafe.html"
+    link: "HTML/royal.html"
   },
   {
     name: "Bansiwale's Restaurants",
     image: "assests/shukla.webp",
-    link: "HTML/BansiWale.html"
+    link: "HTML/bansi.html"
   }
 ];
 
