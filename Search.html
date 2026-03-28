@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine And Browse</title>
+    <link rel="stylesheet" href="CSS/variety.css">
+    <style>
+       .footer2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.footer2{
+ padding: 50px;
+ background-image: url(assests/background.jpeg);
+ height: 100vh;
+
+}
+ .result-container {
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+            border: 2px solid black;
+            background-color: rgb(255, 255, 255);
+             /* Double the text size */
+        }
+        
+        .result-item {
+            text-decoration: none; /* Remove all text decorations */
+            color: black;
+            
+            margin: 20px;
+            width: 70%;
+            padding: 10px;
+            display: inline-block;
+            
+        }
+        
+        /* Hover effect for links */
+        .result-item:hover {
+            color: #FF6347; /* Change color on hover */
+        }
+        #ratingInput{
+            width: 500px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.648);
+            color: rgb(60, 0, 255);
+        }
+        .btt{
+            background-color: rgb(112, 198, 142);
+            width: 200px;
+            height: 50px;
+        }
+        .btt:hover{
+            background-color: antiquewhite;
+        }
+         .box{
+            background-image: url(assests/2.png);
+            background-size: cover;
+        }
+         @media (max-width:768px){
+          .footer2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.footer2{
+ padding: 20px;
+ /* background-image: url(assests/background.jpeg); */
+ height: 100vh;
+ background-position: center;
+
+}
+ .result-container {
+            
+            text-align: center;
+            font-size: 1rem;
+            border: 2px solid black;
+            background-color: rgb(255, 255, 255);
+             /* Double the text size */
+        }
+        
+        .result-item {
+            text-decoration: none; /* Remove all text decorations */
+            color: black;
+            
+            margin: 20px;
+            
+            padding: 10px;
+            display: inline-block;
+            
+        }
+        
+        /* Hover effect for links */
+        .result-item:hover {
+            color: #FF6347; /* Change color on hover */
+        }
+        #ratingInput{
+            width: 300px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.648);
+            color: rgb(60, 0, 255);
+        }
+        .btt{
+            background-color: rgb(112, 198, 142);
+            width: 100px;
+            height: 50px;
+        }
+        .btt:hover{
+            background-color: antiquewhite;
+        }
+         .box{
+            /* background-image: url(assests/2.png); */
+            background-size: cover;
+        }
+         }
+         @media (max-width:440px){
+          .footer2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.footer2{
+ padding: 10px;
+ /* background-image: url(assests/background.jpeg); */
+ height: 100vh;
+ background-position: center;
+
+}
+ .result-container {
+            
+            text-align: center;
+            font-size: .8rem;
+            border: 2px solid black;
+            background-color: rgb(255, 255, 255);
+             /* Double the text size */
+        }
+        
+        .result-item {
+            text-decoration: none; /* Remove all text decorations */
+            color: black;
+            
+            margin: 20px;
+            
+            padding: 10px;
+            display: inline-block;
+            
+        }
+        
+        /* Hover effect for links */
+        .result-item:hover {
+            color: #FF6347; /* Change color on hover */
+        }
+        #ratingInput{
+            width: 200px;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.648);
+            color: rgb(60, 0, 255);
+        }
+        .btt{
+            background-color: rgb(112, 198, 142);
+            width: 80px;
+            height: 30px;
+        }
+        .btt:hover{
+            background-color: antiquewhite;
+        }
+         .box{
+            /* background-image: url(assests/2.png); */
+            background-size: cover;
+        }
+         }
+    </style>
+</head>
+<body>
+    <div class="cbigcontainer">
+        <div class="main">
+            <nav>
+                    <h2>DINE AND BROWSE</h2>
+                <div class="first">
+                    <div name="language" id="lang">
+                        <a href="index.html" target="_blank">Home</a>
+                       <a href="contact.html">Contact Us</a>
+                       <a href="contact.html">About</a>
+                    </div>
+            </nav>
+            <div class="contain">
+              
+                <div class="b"></div>
+                <div class="box">
+                  
+                </div>
+            </div>
+             <div class="hero">
+                <pre> Unlimited restaurants, Book stores and more
+Everyone free for searching, rating and more.</pre>
+                <!-- <div>
+                    <input type="text" id="text" placeholder="Enter to Search">
+                    <button class="btn">Get Started &gt;</button>
+                </div> -->
+            </div> <!-- div class hero end --> 
+        </div><!--div class main end-->
+    </div>
+    <hr>
+      <div class="nav">
+    
+            <a href="index.html">Home</a>
+            <a href="html.htm">Search</a>
+        </div>
+
+        <hr>
+        <h1>RESTAURANT AROUND YOU :</h1>
+<div class="container" id="restaurant-container"></div>
+
+<h1>BOOKSTORES AROUND YOU :</h1>
+<div class="container" id="bookstore-container"></div>
+<div class="hr"><hr></div>
+
+ <script src="js/data1.js"></script>
+    <script src="js/app1.js"></script>
+    <div class="footer2">
+<h1>Filter The BookStores And RestauRants By Rating</h1>
+          <div class="zero">
+            <input type="number" id="ratingInput" placeholder="Enter Rating (1-5)">
+            <button class="btt" onclick="filterItems()">Filter</button>
+          </div>
+
+        </div>
+        
+        <!-- This is where the filtered results will appear -->
+        <div id="result" class="result-container"></div>
+        </div>
+                   
+           
+       <footer>
+        <div class="ques">Questions? Call--- 7300978233 </div>
+        <div class="footer">
+            <div class="footer-item">
+                <a target="_blank" href="HTML/contact.html">Home</a>
+                <a target="_blank" href="variety.html">Visit with Friends</a>
+                <a target="_blank" href="variety.html">Gainiing Knowledge</a>
+            </div>
+            <div class="footer-item">
+                <a target="_blank" href="HTML/contact.html">Contact Us</a>
+                <a target="_blank" href="variety.html">Adventure</a>
+                <a target="_blank" href="variety.html">Learning</a>
+            </div>
+            <div class="footer-item">
+                <a target="_blank" href="HTML/contact.html">About</a>
+                <a target="_blank" href="variety.html">shopping</a>
+                <a target="_blank" href="variety.html">Develop Yoursef</a>
+            </div>
+            <div>
+                <a target="_blank" href="mailto:example@gmail.com">email Us</a>
+
+            </div>
+        </div>
+    </footer>
+     
+
+    <script>
+        // Sample data
+        const data = [
+            { name: "Shukla Restaurant", type: "restaurant", rating: 4.1, page: "1shukla.html" },
+            { name: "Mughal Zaika", type: "restaurant", rating: 4.0, page: "2mughal.html" },
+            { name: "Hot Bite", type: "restaurant", rating: 3.4, page: "3hotbite.html" },
+            { name: "Rajkumar Dhaba", type: "restaurant", rating: 4.1, page: "4Rajkumar_dhaba.html" },
+            { name: "Badshah Restaurant", type: "restaurant", rating: 3.8, page: "5Badshah_restaurants.html" },
+            { name: "Diamond's Pizza", type: "restaurant", rating: 4.3, page: "6Diamonds_Pizza.html" },
+            { name: "South Indian", type: "restaurant", rating: 4.0, page: "7south.html" },
+            { name: "Chaaycus", type: "restaurant", rating: 3.7, page: "8Chaaycus.html" },
+            { name: "Diamond's Pizza 2", type: "restaurant", rating: 4.4, page: "9Diamonds2.html" },
+            { name: "Gigabite Restaurants", type: "restaurant", rating: 3.5, page: "10Gigabite.html" },
+            { name: "The Royal Cafe", type: "restaurant", rating: 4.6, page: "11royal.html" },
+            { name: "Bansiwale's Restaurants", type: "restaurant", rating: 4.0, page: "12bansi.html" },
+            { name: "Kamal Pustak Bhandar", type: "Bookstore", rating: 4.3, page: "101kamal.html" },
+            { name: "Mishra Book Store", type: "Bookstore", rating: 3.8, page: "102Mishra.html" },
+            { name: "Om Pustak Bhandar", type: "Bookstore", rating: 4.2, page: "104om.html" },
+            { name: "Shiv Pustak Bhandar", type: "Bookstore", rating: 3.9, page: "103shiv.html" },
+            { name: "Patel Pustak Bhandar", type: "Bookstore", rating: 4.5, page: "105patel.html" },
+            { name: "Prashad Bharti", type: "Bookstore", rating: 4.1, page: "106prashad.html" },
+            { name: "Madhvi Pustak Bhandar", type: "Bookstore", rating: 4.0, page: "107madhvi.html" },
+            { name: "Ma VaishnoDevi Pustak Bhandar", type: "Bookstore", rating: 3.7, page: "108MAvaishno.html" },
+            { name: "Nikki Pustak Bhandar", type: "Bookstore", rating: 3.6, page: "109nikki.html" },
+        ];
+
+        // Function to filter items by rating
+        function filterItems() {
+            const ratingInput = document.getElementById("ratingInput").value;
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = ""; // Clear previous results
+
+            if (ratingInput < 1 || ratingInput > 5) {
+                alert("Please enter a rating between 1 and 5.");
+                return;
+            }
+
+            const filteredData = data.filter(item => item.rating >= ratingInput);
+
+            if (filteredData.length === 0) {
+                resultDiv.innerHTML = "<p>No items found with the specified rating.</p>";
+                return;
+            }
+
+            // Display filtered results
+            filteredData.forEach(item => {
+                const itemDiv = document.createElement("a");
+                itemDiv.className = "result-item";
+                itemDiv.href = item.page;  // Link to the restaurant/bookstore page
+                itemDiv.innerHTML = `<strong>${item.name}</strong> (${item.type}) - Rating: ${item.rating}`;
+                resultDiv.appendChild(itemDiv);
+            });
+        }
+    </script>
+</body>
+</html>

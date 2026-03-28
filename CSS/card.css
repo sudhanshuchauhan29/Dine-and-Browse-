@@ -1,0 +1,16 @@
+  .card {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.details h3 {
+  margin: 20px 0 10px;
+}
+ .details {
+  padding: 20px;
+  background: #d9cfcf;
+}
