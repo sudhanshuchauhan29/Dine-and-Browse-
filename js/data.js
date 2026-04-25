@@ -3,19 +3,19 @@ const restaurants = [
     name: "Hot Bite",
     address: "Near Tirwa Tehsil Kannauj Road",
     image: "assests/hotbite.jpeg",
-    link: "html/hotbite.html"
+    link: "HTML/hotbite.html"
   },
   {
     name: "Mughal Zaika",
     address: "Shukla colony Gandhi Nagar, tirwa",
     image: "assests/Mughal.jpg",
-    link: "2mughal.html"
+    link: "HTML/2mughal.html"
   },
   {
     name: "Shukla Restaurant",
     address: "Near Tirwa, Kannauj",
     image: "assests/shukla.webp",
-    link: "Html/1shukla.html"
+    link: "HTML/1shukla.html"
   }
 ];
 
